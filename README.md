@@ -27,7 +27,7 @@ Setup de SDL2 (sous Arch avec `yay`) :
 yay -S sdl2 sdl2_image sdl2_mixer sdl2_ttf
 ```
 
-### Mac OSX
+### Mac OSX
 
 Setup de SDL2 (sous Mac OSX avec `brew`) :
 
