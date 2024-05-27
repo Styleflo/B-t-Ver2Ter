@@ -1,6 +1,6 @@
 #include "main_menu.h"
 
-#define NUM_MENU_ITEMS 3
+#define NUM_MENU_ITEMS 2
 // #define MAIN_MENU_OPTIONS ("Play", "Options", "Quit")
 
 void event_handler_main_menu(GameData* game) {
@@ -71,7 +71,7 @@ void event_handler_main_menu(GameData* game) {
 }
 
 void update_main_menu(GameData* game) {
-    const char *main_menu_options[] = {"Play", "Options", "Quit"};
+    const char *main_menu_options[] = {"Play", "Quit"};
     if (game->current_scene->objects == NULL) {
         printf("objects is NULL\n");
         exit(-1);
