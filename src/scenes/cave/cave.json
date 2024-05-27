@@ -3,30 +3,21 @@
   "background": "src_assets_backgrounds_backgroundBsCaveBlurred",
   "structures": [
     {
-      "identifier" : "blockLeft",
-      "x" : -1,
-      "y" : 0,
-      "resource" : "src_assets_structures_fullBlockVertical",
-      "allow_pass_through" : 0,
-      "teleport_to_scene" : "none"
-  },
-  {
-      "identifier" : "blockRight",
-      "x" : 16,
-      "y" : 0,
-      "resource" : "src_assets_structures_fullBlockVertical",
-      "allow_pass_through" : 0,
-      "teleport_to_scene" : "cave2_0_6"
-  },
-  {
-      "identifier" : "blockUp",
-      "x" : 0,
-      "y" : -1,
-      "resource" : "src_assets_structures_fullBlockHorizontal",
-      "allow_pass_through" : 0,
-      "teleport_to_scene" : "none"
-  },
-
+      "identifier": "blockLeft",
+      "x": -1,
+      "y": 0,
+      "resource": "src_assets_structures_fullBlockVertical",
+      "allow_pass_through": 0,
+      "teleport_to_scene": "none"
+    },
+    {
+      "identifier": "blockRight",
+      "x": 16,
+      "y": 0,
+      "resource": "src_assets_structures_fullBlockVertical",
+      "allow_pass_through": 0,
+      "teleport_to_scene": "cave2_0_6"
+    },
     {
       "identifier": "ground01",
       "x": -1,
@@ -59,11 +50,6 @@
       "allow_pass_through": 0,
       "teleport_to_scene": "none"
     },
-    
-
-
-    
-    
     {
       "identifier": "ground15",
       "x": 13,
@@ -136,7 +122,6 @@
       "allow_pass_through": 0,
       "teleport_to_scene": "none"
     },
-    
     {
       "identifier": "upperGround11",
       "x": 12,
@@ -249,10 +234,6 @@
       "allow_pass_through": 0,
       "teleport_to_scene": "none"
     },
-    
-    
-    
-
     {
       "identifier": "upperGround14",
       "x": 11,
@@ -293,8 +274,6 @@
       "allow_pass_through": 0,
       "teleport_to_scene": "none"
     },
-
-
     {
       "identifier": "upperGround19",
       "x": 5,
@@ -327,21 +306,14 @@
       "allow_pass_through": 0,
       "teleport_to_scene": "none"
     },
-
-
-
-    
-
     {
-      "teleport_to_scene" : "cave_beginning_2_2",
-      "x" : 15,
-      "identifier" : "door_to_dungeon",
-      "resource" : "src_assets_structures_door",
-      "y" : 6,
-      "allow_pass_through" : 0
+      "teleport_to_scene": "cave_beginning_2_2",
+      "x": 15,
+      "identifier": "door_to_dungeon",
+      "resource": "src_assets_structures_door",
+      "y": 6,
+      "allow_pass_through": 0
     }
-
-    
   ],
   "entities": [
     {
@@ -349,7 +321,6 @@
       "x": 8,
       "y": 0
     },
-
     {
       "identifier": "la_mouche",
       "x": 7,
@@ -365,8 +336,5 @@
       "x": 2,
       "y": 1
     }
-
-
-
   ]
 }
